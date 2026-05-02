@@ -15,6 +15,7 @@ enum class EventData(val id: String, val description: String, val scrambler: Puz
     PYRA(PuzzleData.PYRA, FormatData.BIG_AVERAGE_FORMATS),
     SKEWB(PuzzleData.SKEWB, FormatData.BIG_AVERAGE_FORMATS),
     SQ1(PuzzleData.SQ1, FormatData.BIG_AVERAGE_FORMATS),
+    FTO(PuzzleData.FTO, FormatData.BIG_AVERAGE_FORMATS),
     FOUR_BLD("444bf", "4x4x4 Blindfolded", PuzzleData.FOUR_BLD, FormatData.BIG_BLD_FORMATS),
     FIVE_BLD("555bf", "5x5x5 Blindfolded", PuzzleData.FIVE_BLD, FormatData.BIG_BLD_FORMATS),
     THREE_MULTI_BLD("333mbf", "3x3x3 Multiple Blindfolded", PuzzleData.THREE_BLD, FormatData.FULL_BLD_FORMATS);

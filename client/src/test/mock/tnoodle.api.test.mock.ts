@@ -154,6 +154,17 @@ export const events = [
         is_multiple_blindfolded: false,
     },
     {
+        id: "fto",
+        name: "Face Turning Octahedron",
+        puzzle_id: "fto",
+        puzzle_group_id: null,
+        format_ids: ["a", "3", "2", "1"],
+        can_change_time_limit: true,
+        is_timed_event: true,
+        is_fewest_moves: false,
+        is_multiple_blindfolded: false,
+    },
+    {
         id: "444bf",
         name: "4x4x4 Blindfolded",
         puzzle_id: "444",
